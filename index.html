@@ -17,14 +17,14 @@
 
 <body>
   <!-- Шапка -->
-  <header>
-    <div class="conteiner header">
-      <nav class="navigation">
-        <a href="./index.html" class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+  <header class="pege-header">
+    <div class="conteiner pege-header__main">
+      <nav class="pege-header__navigation">
+        <a href="./index.html" class="logo pege-header__logo"><span class="logo__span logo__span--accent">Web</span><span class="logo__span logo__span--primary">Studio</span></a>
         <ul class="list menu">
-          <li class="menu-item"><a href="./index.html" class="link current">Студия</a></li>
-          <li class="menu-item"><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li class="menu-item"><a href="Contacts" class="link">Контакты</a></li>
+          <li class="menu__item"><a href="./index.html" class="link current">Студия</a></li>
+          <li class="menu__item"><a href="./portfolio.html" class="link menu__link">Портфолио</a></li>
+          <li class="menu__item"><a href="Contacts" class="link menu__link">Контакты</a></li>
         </ul>
       </nav>
       <ul class="list contakts">
@@ -54,15 +54,13 @@
 
     <!-- Герой -->
     <section class="main-hiro">
-      <div class="conteiner hiro">
-        <h1 class="main-title-hiro">Эффективные решения <br> для вашего бизнеса</h1>
+        <h1 class="main-hiro__main-title-hiro">Эффективные решения <br> для вашего бизнеса</h1>
 
         <!-- Модальне вікно  -->
 
         <button type="button" class="button" data-modal-open>
           Заказать услугу
         </button>
-      </div>
 
     </section>
 
@@ -70,47 +68,47 @@
     <section class="about">
       <div class="conteiner">
         <ul class="about-list">
-          <li class="about-item">
-            <div class="about-icon">
+          <li class="about-list__about-item">
+            <div class="about-list about-list__about-icon">
               <svg class="icon" width="70px" height="70px">
                 <use href="./images/symbol-defs.svg#group-an"></use>
               </svg>
             </div>
-            <h3 class="about-title">Внимание к деталям</h3>
-            <p class="about-info">
+            <h3 class="about-list__about-title">Внимание к деталям</h3>
+            <p class="about-list__about-info">
               Идейные соображения, а также начало повседневной работы по формированию позиции.
             </p>
           </li>
-          <li class="about-item">
-            <div class="about-icon">
+          <li class="about-list__about-item">
+            <div class="about-list about-list__about-icon">
               <svg class="icon" width="70px" height="70px">
                 <use href="./images/symbol-defs.svg#vector-ocloc"></use>
               </svg>
             </div>
-            <h3 class="about-title">Пунктуальность</h3>
-            <p class="about-info">
+            <h3 class="about-list__about-title">Пунктуальность</h3>
+            <p class="about-list__about-info">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
-          <li class="about-item">
-            <div class="about-icon">
+          <li class="about-list__about-item">
+            <div class="about-list about-list__about-icon">
               <svg class="icon" width="70px" height="70px">
                 <use href="./images/symbol-defs.svg#vector"></use>
               </svg>
             </div>
-            <h3 class="about-title">Планирование</h3>
-            <p class="about-info">
+            <h3 class="about-list__about-title">Планирование</h3>
+            <p class="about-list__about-info">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
           <li class="about-item">
-            <div class="about-icon">
+            <div class="about-list about-list__about-icon">
               <svg class="icon" width="70px" height="70px">
                 <use href="./images/symbol-defs.svg#group"></use>
               </svg>
             </div>
-            <h3 class="about-title">Современные технологии</h3>
-            <p class="about-info">
+            <h3 class="about-list__about-title">Современные технологии</h3>
+            <p class="about-list__about-info">
               Значимость этих проблем настолько очевидна, что реализация плановых заданий.
             </p>
           </li>
@@ -121,24 +119,24 @@
     <!--Фотограція чим ми займаємось-->
     <section class="business">
       <div class="conteiner">
-        <h2 class="business-title">Чем мы занимаемся</h2>
+        <h2 class="business__business-title">Чем мы занимаемся</h2>
         <ul class="business-list">
-          <li class="business-img">
-            <div class="work-box">
-              <p class="text-box">Десктопные приложения</p>
+          <li class="business-list__business-img">
+            <div class="business-list__work-box">
+              <p class="business-list__text-box">Десктопные приложения</p>
               <img src="./images/photo.jpg" alt="layout" width="370" />
             </div>
           </li>
-          <li class="business-img">
-            <div class="work-box">
-              <p class="text-box">Мобильные приложения</p>
+          <li class="business-list__business-img">
+            <div class="business-list__work-box">
+              <p class="business-list__text-box">Мобильные приложения</p>
               <img src="./images/fhoto1.jpg" alt="applications" width="370" />
             </div>
           </li>
 
-          <li class="business-img">
-            <div class="work-box">
-              <p class="text-box">Дизайнерские решения</p>
+          <li class="business-list__business-img">
+            <div class="business-list__work-box">
+              <p class="business-list__text-box">Дизайнерские решения</p>
               <img src="./images/photo2.jpg" alt="desing" width="370" />
             </div>
           </li>
@@ -147,17 +145,17 @@
     </section>
 
     <!--Фотограція наша команда-->
-    <section class="team">
+    <section class="section team">
       <div class="conteiner">
-        <h2 class="team-title">Наша команда</h2>
+        <h2 class="section__team-title">Наша команда</h2>
         <ul class="team-list">
-          <li class="team-item">
+          <li class="team-list__team-item">
             <img src="./images/photo_card1.jpg" alt="Product Designer" width="270" />
-            <div class="team-box">
-              <h3 class="team-collaborator">Игорь Демьяненко</h3>
-              <p class="team-profession">Product Designe</p>
+            <div class="team-list__team-box">
+              <h3 class="team-list__team-collaborator">Игорь Демьяненко</h3>
+              <p class="team-list__team-profession">Product Designe</p>
             </div>
-            <ul class="social-list">
+            <ul class="team-list__social-list">
               <li class="social-item">
                 <a href="" class="social-link">
                   <svg class="" width="20px" height="20px">
@@ -193,13 +191,13 @@
           </li>
 
 
-          <li class="team-item">
+          <li class="team-list__team-item">
             <img src="./images/photo_card2.jpg" alt="Frontend Developer" width="270" />
-            <div class="team-box">
-              <h3 class="team-collaborator">Ольга Репина</h3>
-              <p class="team-profession">Frontend Developer</p>
+            <div class="team-list__team-box">
+              <h3 class="team-list__team-collaborator">Ольга Репина</h3>
+              <p class="team-list__team-profession">Frontend Developer</p>
             </div>
-            <ul class="social-list">
+            <ul class="team-list__social-list">
               <li class="social-item">
                 <a href="" class="social-link">
                   <svg class="" width="20px" height="20px">
@@ -234,13 +232,13 @@
             </ul>
           </li>
 
-          <li class="team-item">
+          <li class="team-list__team-item">
             <img src="./images/photo_card3.jpg" alt="Marketing" width="270" />
-            <div class="team-box">
-              <h3 class="team-collaborator">Николай Тарасов</h3>
-              <p class="team-profession">Marketing</p>
+            <div class="team-list__team-box">
+              <h3 class="team-list__team-collaborator">Николай Тарасов</h3>
+              <p class="team-list__team-profession">Marketing</p>
             </div>
-            <ul class="social-list">
+            <ul class="team-list__social-list">
               <li class="social-item">
                 <a href="" class="social-link">
                   <svg class="" width="20px" height="20px">
@@ -275,13 +273,13 @@
             </ul>
           </li>
 
-          <li class="team-item">
+          <li class="team-list__team-item">
             <img src="./images/photo_card4.jpg" alt="UI Designer" width="270" />
-            <div class="team-box">
-              <h3 class="team-collaborator">Михаил Ермаков</h3>
-              <p class="team-profession">UI Designer</p>
+            <div class="team-list__team-box">
+              <h3 class="team-list__team-collaborator">Михаил Ермаков</h3>
+              <p class="team-list__team-profession">UI Designer</p>
             </div>
-            <ul class="social-list">
+            <ul class="team-list__social-list">
               <li class="social-item">
                 <a href="" class="social-link">
                   <svg class="" width="20px" height="20px">
