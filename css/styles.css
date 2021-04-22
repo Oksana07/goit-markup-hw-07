@@ -110,9 +110,11 @@ line-height: 1.2;
 color: #000000;
 }
 
-.list.menu {
+.list__menu {
 display: flex;
-list-style: none;
+font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .menu__item {
@@ -151,14 +153,14 @@ bottom: -32px;
 border-radius: 2px;
 }
 
-
-.list .menu {
+.contakts {
 font-weight: 500;
-font-size: 14px;
+font-size: 1.14;
 line-height: 1.14;
+color: var (--info-color); 
 }
 
-.list.contakts {
+.list__contakts {
 display: flex;
 margin-left: auto;
 }
@@ -168,12 +170,7 @@ margin-right: auto;
 margin-left: 50px;
 }
 
-.contakts {
-font-weight: 500;
-font-size: 1.14;
-line-height: 1.14;
-color: var (--info-color); 
-}
+
 
 .link {
 text-decoration: none;
