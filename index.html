@@ -23,15 +23,16 @@
         <a href="./index.html" class="logo pege-header__logo"><span
             class="logo__span logo__span--accent">Web</span><span
             class="logo__span logo__span--primary">Studio</span></a>
-        
-            <ul class="list menu">
+
+        <ul class="list menu">
           <li class="menu__item"><a href="./index.html" class="link link__current">Студия</a></li>
           <li class="menu__item"><a href="./portfolio.html" class="link menu__link">Портфолио</a></li>
           <li class="menu__item"><a href="Contacts" class="link menu__link">Контакты</a></li>
         </ul>
       </nav>
       <ul class="list contakts">
-        <li><a class="link contakts" href="info@devstudio.com">
+        <li>
+          <a class="link contakts menu__link" href="info@devstudio.com">
             <div class="contakts-icon">
               <svg class="icon" width="16px" height="12px">
                 <use href="./images/symbol-defs.svg#envelope-hover"></use>
@@ -40,7 +41,7 @@
           </a>
         </li>
         <li>
-          <a class="link contakts" href="+380961111111">
+          <a class="link contakts menu__link" href="+380961111111">
             <div class="contakts-icon">
               <svg class="icon" width="10px" height="16px">
                 <use href="./images/symbol-defs.svg#smartphone"></use>
@@ -61,7 +62,7 @@
 
       <!-- Модальне вікно  -->
 
-      <button type="button" class="button" data-modal-open>
+      <button type="button" class="button main-hiro__button" data-modal-open>
         Заказать услугу
       </button>
 
@@ -456,7 +457,7 @@
             </li>
           </ul>
         </div>
-        
+
         <div class="widget footer-subscribe">
           <form class="subscribe-form" name="signup-form" autocomplete="on" />
           <p class="footer-title__section-title">
@@ -531,8 +532,8 @@
           <label for="modal-form__textarea">
             <span class="modal-form__form-text">Комментарий</span>
           </label>
-          <textarea class="modal-form__form-textmodal-textarea" placeholder="Введите текст" name="textarea" id="textarea" cols="30"
-            rows="10"></textarea>
+          <textarea class="modal-form__form-textmodal-textarea" placeholder="Введите текст" name="textarea"
+            id="textarea" cols="30" rows="10"></textarea>
         </div>
         <label class="modal-form__checkbox-custom">
           <input class="modal-checkbox" type="checkbox" name="policy">
