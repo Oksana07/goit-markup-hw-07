@@ -6,12 +6,13 @@ padding: 94px 0;
 display: flex;
 }
 
-.about-list__about-item {
+.&__about-item {
 width: 270px;
 }
 
-.about-list__about-item:not(:last-child) {
+.&__about-item:not(:last-child) {
 margin-right: 30px;
+}
 }
 
 .about-list__about-info {

@@ -794,12 +794,10 @@ li {
 .about-list {
   display: flex;
 }
-
-.about-list__about-item {
+.about-list .__about-item {
   width: 270px;
 }
-
-.about-list__about-item:not(:last-child) {
+.about-list .about-list__about-item:not(:last-child) {
   margin-right: 30px;
 }
 
