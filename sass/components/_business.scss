@@ -6,16 +6,11 @@ padding-bottom: 94px;
 display: flex;
 justify-content: space-between;
 }
-
-.business-list__business-img:not(:last-child) {
-margin-right: 30px;
-}
-
-.business-list__work-box {
+&__work-box {
 position: relative;
 }
 
-.business-list__text-box {
+&__text-box {
 position: absolute;
 font-weight: bold;
 font-size: 14px;
@@ -30,4 +25,9 @@ left: 0;
 width: 100%;
 padding-top: 27px;
 padding-bottom: 27px;
+ }
+}
+
+.business-list__business-img:not(:last-child) {
+margin-right: 30px;
 }

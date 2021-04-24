@@ -9,8 +9,9 @@
   align-items: baseline;
 }
 
-.footer-box__footer-box-info {
+&__footer-box-info {
   margin-right: 70px;
+ }
 }
 
 .footer__footer-list {
@@ -19,8 +20,9 @@
   margin-top: 20px;
 }
 
-.footer__footer-list__footer-item:not(:last-child) {
+&__footer-item:not(:last-child) {
   margin-bottom: 9px;
+ }
 }
 
 .footer__map {
@@ -31,9 +33,10 @@ margin-bottom: 9px;
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__map:hover,
-.footer__map:focus {
+&:hover,
+&:focus {
 color: var(--accent-color);
+ }
 }
 
 .footer__contakt {
@@ -44,7 +47,8 @@ margin-bottom: 9px;
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__contakt:hover,
-.footer__contakt:focus {
+&:hover,
+&:focus {
 color: var(--accent-color);
+ }
 }

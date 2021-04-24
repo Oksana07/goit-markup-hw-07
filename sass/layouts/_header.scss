@@ -2,12 +2,13 @@
 border-bottom: 1px solid #ececec;
 }
 
-.pege-header__main {
+&__main {
 display: flex;
 align-items: center;
 }
 
-.pege-header__navigation {
+&__navigation {
 display: flex;
 align-items: center;
+ }
 }

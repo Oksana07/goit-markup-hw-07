@@ -3,18 +3,19 @@ padding-top: 94px;
 padding-bottom: 94px;
 }
 
-.customers__customers-list {
+&__customers-list {
 display: flex;
 margin-left: -30px;
 margin-top: -30px;
 }
 
-.customers__customers-item {
+&__customers-item {
 width: 170px;
 height: 90px;
 margin-left: 30px;
 margin-top: 30px;
 flex-basis: calc((100% - 180px) / 6);
+ }
 }
 
 .customers__customers-link {
@@ -29,9 +30,10 @@ border-radius: 4px;
 fill: #afb1b8;
 }
 
-.customers__customers-link:hover,
-.customers__customers-link:focus {
+&:hover,
+&:focus {
 border-color: var(--accent-color);
 fill: var(--accent-color);
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
 }

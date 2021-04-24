@@ -2,14 +2,7 @@
   display: block;
 }
 
-.pege-header__logo {
-text-decoration: none;
-display: flex;
-margin-right: 93px;
-display: inline-block;
-}
-
-.logo__span--accent {
+&__span--accent {
 font-family: Raleway;
 font-weight: bold;
 font-size: 26px;
@@ -17,12 +10,20 @@ line-height: 1.2;
 color: #2196f3; 
 }
 
-.logo__span--primary {
+&__span--primary {
 font-family: Raleway;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.2;
 color: #000000;
+ }
+}
+
+.pege-header__logo {
+text-decoration: none;
+display: flex;
+margin-right: 93px;
+display: inline-block;
 }
 
 .section-footer .logo {
@@ -40,7 +41,10 @@ color: #000000;
   color: #fff;
 }
 
-.logo__span--secondary:hover,
-.logo__span--secondary:focus {
+&:hover,
+&:focus {
   color: var(--accent-color);
+ }
 }
+
+
